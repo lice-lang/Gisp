@@ -1,0 +1,30 @@
+options {
+    STATIC = false;
+    UNICODE_INPUT = true;
+    JDK_VERSION = "1.8";
+}
+
+PARSER_BEGIN(Parser)
+
+package org.glavo.gisp.parser;
+
+public class Parser {
+
+
+}
+
+PARSER_END(Parser)
+
+MORE : {
+    <"\""> : InString
+}
+
+<InString> MORE : {
+      <(~["\\", "\""])+>
+    | <("\\b" | "\\f" | "\\n" | "\\r" | "\\t" | "\\/" | "\\\\")>
+    | <("0x" | "0X") (["0" - "9"] | ["A" - "F", "a" - "f"]){4}>
+}
+
+<InString> TOKEN : {
+      <JString : "\""> : DEFAULT
+}
