@@ -1,4 +1,4 @@
-package org.glavo.gisp.parser.ast;
+package org.glavo.gisp;
 
 /**
  * Created by glavo on 17-4-14.
@@ -6,5 +6,7 @@ package org.glavo.gisp.parser.ast;
  * @author Glavo
  * @version 1.0.0
  */
-public class Value {
+public interface Value {
+    Object get();
+    Type getType();
 }

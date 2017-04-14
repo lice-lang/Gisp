@@ -6,5 +6,5 @@ package org.glavo.gisp;
  * @author Glavo
  * @version 1.0.0
  */
-public class Type {
+public interface Type {
 }
