@@ -19,7 +19,7 @@ public class SymbolList implements Bindings {
 
     @Override
     public Object put(String name, Object value) {
-        map.put(name, new Value.JValue<>(value));
+        map.put(name, new JValue<>(value));
         return value;
     }
 

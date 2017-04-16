@@ -76,3 +76,18 @@ ValueNode string() : {
     }
 }
 
+MacroNode macro() : {
+    Token t;
+} {
+    t=<MacroName> {
+        return new MacroNode(t.image);
+    }
+}
+
+MacroNode id() : {
+    Token t;
+} {
+    t=<MacroName> {
+        return new SymbolNode(t.image);
+    }
+}
