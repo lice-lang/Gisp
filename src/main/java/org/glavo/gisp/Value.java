@@ -1,5 +1,7 @@
 package org.glavo.gisp;
 
+import java.util.Objects;
+
 /**
  * Created by glavo on 17-4-14.
  *
@@ -16,20 +18,29 @@ public interface Value {
      * @author Glavo
      * @version 1.0.0
      */
-    class JType<T> implements Type {
-        private Class<T> type;
+    class JValue<T> implements Value {
+        private T value;
+        private Type type;
 
-        public JType(Class<T> t) {
-            this.type = t;
+        public JValue(T v) {
+            this.value = v;
+            if (value == null) type = Type.JType.Null;
         }
-
-        public static final JType<?> Null = new JType<>(null);
-
 
 
         @Override
+        public Object get() {
+            return value;
+        }
+
+        @Override
+        public Type getType() {
+            return type;
+        }
+
+        @Override
         public String toString() {
-            return type == null ? "Null" : type.getName();
+            return Objects.toString(value);
         }
     }
 }

@@ -9,35 +9,32 @@ import java.util.Objects;
  * @version 1.0.0
  */
 public interface Type {
+
     /**
      * Created by glavo on 17-4-14.
      *
      * @author Glavo
      * @version 1.0.0
      */
-    class JValue<T> implements Value {
-        private T value;
-        private Type type;
+    class JType<T> implements Type {
+        private Class<T> type;
 
-        public JValue(T v) {
-            this.value = v;
-            if (value == null) type = JType.Null;
+        public static <T> JType<T> typeOf(T v) {
+            return v == null ? (JType<T>) Null
+                    : new JType<>((Class<T>) v.getClass());
         }
 
-
-        @Override
-        public Object get() {
-            return value;
+        private JType(Class<T> t) {
+            this.type = t;
         }
 
-        @Override
-        public Type getType() {
-            return type;
-        }
+        public static final JType<?> Null = new JType<>(null);
+
+
 
         @Override
         public String toString() {
-            return Objects.toString(value);
+            return type == null ? "Null" : type.getName();
         }
     }
 }

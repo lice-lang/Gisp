@@ -4,7 +4,10 @@ import javax.script.*;
 import java.io.Reader;
 
 /**
- * Created by glavo on 17-4-16.
+ * Created by glavo on 17-4-15.
+ *
+ * @author Glavo
+ * @since 1.0.0
  */
 public class Runner implements ScriptEngine {
     private Environment env;

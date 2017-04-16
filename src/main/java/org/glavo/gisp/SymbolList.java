@@ -7,13 +7,16 @@ import java.util.stream.Collectors;
 
 /**
  * Created by glavo on 17-4-15.
+ *
+ * @author Glavo
+ * @since 1.0.0
  */
 public class SymbolList implements Bindings {
     public Map<String, Value> map = new HashMap<>();
 
     @Override
     public Object put(String name, Object value) {
-        map.put(name, new Type.JValue<>(value));
+        map.put(name, new Value.JValue<>(value));
         return value;
     }
 
