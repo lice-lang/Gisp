@@ -68,7 +68,7 @@ public class ParserHelper {
 
         return sb.toString();
     }
-    public static BigInteger parserInteger(String s) {
+    public static BigInteger parseInteger(String s) {
         int radix = 10;
         if (s.startsWith("0x") || s.startsWith("0X")) {
             radix = 16;
@@ -81,7 +81,7 @@ public class ParserHelper {
         return new BigInteger(s, radix);
     }
 
-    public static BigDecimal parserDecimal(String s) {
+    public static BigDecimal parseDecimal(String s) {
         return new BigDecimal(s);
     }
 }

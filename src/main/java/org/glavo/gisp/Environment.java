@@ -1,5 +1,7 @@
 package org.glavo.gisp;
 
+import org.glavo.gisp.parser.Macro;
+
 import javax.script.*;
 import java.io.*;
 import java.util.List;
@@ -94,5 +96,13 @@ public class Environment implements ScriptContext{
     @Override
     public List<Integer> getScopes() {
         return null;
+    }
+
+    public Value get(String s) {
+        return Value.check(symbolList.map.get(s));
+    }
+
+    public Macro getMacro(String s) {
+        return symbolList.macroMap.get(s);
     }
 }

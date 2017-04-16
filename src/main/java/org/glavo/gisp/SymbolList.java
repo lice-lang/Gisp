@@ -1,6 +1,8 @@
 package org.glavo.gisp;
 
 
+import org.glavo.gisp.parser.Macro;
+
 import javax.script.*;
 import java.util.*;
 import java.util.stream.Collectors;
@@ -13,6 +15,7 @@ import java.util.stream.Collectors;
  */
 public class SymbolList implements Bindings {
     public Map<String, Value> map = new HashMap<>();
+    public Map<String, ? extends Macro> macroMap = new HashMap<>();
 
     @Override
     public Object put(String name, Object value) {

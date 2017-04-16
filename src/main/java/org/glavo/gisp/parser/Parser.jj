@@ -8,6 +8,7 @@ PARSER_BEGIN(Parser)
 package org.glavo.gisp.parser;
 
 import org.glavo.gisp.*;
+import org.glavo.gisp.parser.ast.*;
 
 public class Parser {
 
@@ -51,10 +52,27 @@ TOKEN : {
         (~["\"", ",", "(", ")", "[", "]", "{", "}", "`"])+>
 }
 
-Value integer() : {
+ValueNode integer() : {
     Token t;
 } {
     t=<Integer> {
-
+        return new ValueNode(Value.of(ParserHelper.parseInteger(t.image)));
     }
 }
+
+ValueNode decimal() : {
+    Token t;
+} {
+    t=<Integer> {
+        return new ValueNode(Value.of(ParserHelper.parseDecimal(t.image)));
+    }
+}
+
+ValueNode string() : {
+    Token t;
+} {
+    t=<Integer> {
+        return new ValueNode(Value.of(ParserHelper.parseString(t.image)));
+    }
+}
+
