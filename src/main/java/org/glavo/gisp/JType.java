@@ -15,6 +15,8 @@ public class JType<T> implements Type {
 
     public static final JType<?> Null = new JType<>(null);
 
+
+
     @Override
     public String toString() {
         return type == null ? "Null" : type.getName();

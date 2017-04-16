@@ -26,5 +26,11 @@ MORE : {
 }
 
 <InString> TOKEN : {
-      <JString : "\""> : DEFAULT
+      <GString : "\""> : DEFAULT
 }
+
+TOKEN : {
+      <Integer : (["+", "-"])?["1" - "9"](["0" - "9"])*>
+}
+
+
