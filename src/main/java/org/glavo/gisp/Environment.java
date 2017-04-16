@@ -5,7 +5,7 @@ import java.io.*;
 import java.util.List;
 
 /**
- * Created by glavo on 17-4-16.
+ * Gisp is dynamic scopes, so you can't get it's scopes;
  */
 public class Environment implements ScriptContext{
     SymbolList symbolList;

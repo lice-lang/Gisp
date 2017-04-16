@@ -1,24 +1,26 @@
-package org.glavo.gisp.parser;
+package org.glavo.gisp;
 
 import javax.script.*;
 import java.io.Reader;
 
 /**
- * Created by glavo on 17-4-15.
+ * Created by glavo on 17-4-16.
  */
-public class Parser implements ScriptEngine {
+public class Runner implements ScriptEngine {
+    private Environment env;
+
     @Override
-    public Object eval(String s, ScriptContext scriptContext) throws ScriptException {
+    public Object eval(String script, ScriptContext context) throws ScriptException {
         return null;
     }
 
     @Override
-    public Object eval(Reader reader, ScriptContext scriptContext) throws ScriptException {
+    public Object eval(Reader reader, ScriptContext context) throws ScriptException {
         return null;
     }
 
     @Override
-    public Object eval(String s) throws ScriptException {
+    public Object eval(String script) throws ScriptException {
         return null;
     }
 
@@ -28,32 +30,32 @@ public class Parser implements ScriptEngine {
     }
 
     @Override
-    public Object eval(String s, Bindings bindings) throws ScriptException {
+    public Object eval(String script, Bindings n) throws ScriptException {
         return null;
     }
 
     @Override
-    public Object eval(Reader reader, Bindings bindings) throws ScriptException {
+    public Object eval(Reader reader, Bindings n) throws ScriptException {
         return null;
     }
 
     @Override
-    public void put(String s, Object o) {
+    public void put(String key, Object value) {
 
     }
 
     @Override
-    public Object get(String s) {
+    public Object get(String key) {
         return null;
     }
 
     @Override
-    public Bindings getBindings(int i) {
+    public Bindings getBindings(int scope) {
         return null;
     }
 
     @Override
-    public void setBindings(Bindings bindings, int i) {
+    public void setBindings(Bindings bindings, int scope) {
 
     }
 
@@ -68,7 +70,7 @@ public class Parser implements ScriptEngine {
     }
 
     @Override
-    public void setContext(ScriptContext scriptContext) {
+    public void setContext(ScriptContext context) {
 
     }
 
