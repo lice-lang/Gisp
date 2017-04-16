@@ -1,0 +1,130 @@
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Initial source changes: [0m
+[0m[[0mdebug[0m] [0m[naha] 	removed:Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	added: Set(/home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/JValue.java, /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/Value.java, /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/Gisp.java, /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/parser/ast/Node.java, /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/Environment.java, /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/parser/ParserHelper.java, /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/JType.java, /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/Type.java, /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/parser/StringParseException.java, /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/SymbolList.java, /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/Runner.java)[0m
+[0m[[0mdebug[0m] [0m[naha] 	modified: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated products: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(/home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/JValue.java, /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/Value.java, /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/Gisp.java, /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/parser/ast/Node.java, /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/Environment.java, /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/parser/ParserHelper.java, /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/JType.java, /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/Type.java, /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/parser/StringParseException.java, /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/SymbolList.java, /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/Runner.java)[0m
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Sources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m[naha] 	product: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/JValue.java, /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/Value.java, /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/Gisp.java, /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/parser/ast/Node.java, /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/Environment.java, /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/parser/ParserHelper.java, /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/JType.java, /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/Type.java, /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/parser/StringParseException.java, /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/SymbolList.java, /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/Runner.java)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/JValue.java, /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/Value.java, /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/Gisp.java, /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/parser/ast/Node.java, /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/Environment.java, /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/parser/ParserHelper.java, /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/JType.java, /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/Type.java, /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/parser/StringParseException.java, /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/SymbolList.java, /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/Runner.java)[0m
+[0m[[0mdebug[0m] [0m[naha] Recompiling all 11 sources: invalidated sources (11) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 11 Java sources to /home/glavo/IdeaProjects/Gisp/target/scala-2.12/classes...[0m
+[0m[[0mdebug[0m] [0mAttempting to call com.sun.tools.javac.api.JavacTool@7d9e8be4 directly...[0m
+[0m[[0mdebug[0m] [0mJava compilation took 1.823852343 s[0m
+[0m[[0mdebug[0m] [0mJava analysis took 1.604285941 s[0m
+[0m[[0mdebug[0m] [0mJava compile + analysis took 3.44291266 s[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/Gisp.java...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/Gisp.java...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/Gisp.java)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/Gisp.java)[0m
+[0m[[0mdebug[0m] [0m[naha] The /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/Gisp.java source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	notify, wait, equals, Version, notifyAll, Gisp, toString, getClass, hashCode.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] Name hashing optimization doesn't apply to non-Scala dependency: /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/Gisp.java[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/JValue.java...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/JValue.java...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/JValue.java)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/JValue.java)[0m
+[0m[[0mdebug[0m] [0m[naha] The /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/JValue.java source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	notify, wait, equals, notifyAll, <init>, getType, toString, get, getClass, JValue, hashCode.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] Name hashing optimization doesn't apply to non-Scala dependency: /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/JValue.java[0m
+[0m[[0mdebug[0m] [0m[naha] Name hashing optimization doesn't apply to non-Scala dependency: /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/SymbolList.java[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/Type.java...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/Type.java...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/Type.java)[0m
+[0m[[0mdebug[0m] [0m[naha] Including /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/JType.java by /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/Type.java[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/Type.java, /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/JType.java)[0m
+[0m[[0mdebug[0m] [0m[naha] The /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/Type.java source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	Type.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] Name hashing optimization doesn't apply to non-Scala dependency: /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/JValue.java[0m
+[0m[[0mdebug[0m] [0m[naha] Name hashing optimization doesn't apply to non-Scala dependency: /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/Value.java[0m
+[0m[[0mdebug[0m] [0m[naha] Name hashing optimization doesn't apply to non-Scala dependency: /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/Type.java[0m
+[0m[[0mdebug[0m] [0m[naha] Name hashing optimization doesn't apply to non-Scala dependency: /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/JValue.java[0m
+[0m[[0mdebug[0m] [0m[naha] Name hashing optimization doesn't apply to non-Scala dependency: /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/JType.java[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/parser/ParserHelper.java...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/parser/ParserHelper.java...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/parser/ParserHelper.java)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/parser/ParserHelper.java)[0m
+[0m[[0mdebug[0m] [0m[naha] The /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/parser/ParserHelper.java source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	notify, wait, equals, parserDecimal, notifyAll, <init>, toString, ParserHelper, getClass, parseString, parserInteger, hashCode.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] Name hashing optimization doesn't apply to non-Scala dependency: /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/parser/ParserHelper.java[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/Value.java...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/Value.java...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/Value.java)[0m
+[0m[[0mdebug[0m] [0m[naha] Including /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/JValue.java by /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/Value.java[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/Value.java, /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/JValue.java)[0m
+[0m[[0mdebug[0m] [0m[naha] The /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/Value.java source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	getType, Value, get.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] Name hashing optimization doesn't apply to non-Scala dependency: /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/SymbolList.java[0m
+[0m[[0mdebug[0m] [0m[naha] Name hashing optimization doesn't apply to non-Scala dependency: /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/Value.java[0m
+[0m[[0mdebug[0m] [0m[naha] Name hashing optimization doesn't apply to non-Scala dependency: /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/JValue.java[0m
+[0m[[0mdebug[0m] [0m[naha] Name hashing optimization doesn't apply to non-Scala dependency: /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/SymbolList.java[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/SymbolList.java...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/SymbolList.java...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/SymbolList.java)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/SymbolList.java)[0m
+[0m[[0mdebug[0m] [0m[naha] The /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/SymbolList.java source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	notify, SymbolList, computeIfAbsent, wait, replace, size, map, equals, computeIfPresent, clear, containsKey, compute, getOrDefault, forEach, notifyAll, keySet, containsValue, putIfAbsent, <init>, merge, remove, putAll, put, values, toString, get, getClass, isEmpty, replaceAll, init, entrySet, hashCode.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] Name hashing optimization doesn't apply to non-Scala dependency: /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/SymbolList.java[0m
+[0m[[0mdebug[0m] [0m[naha] Name hashing optimization doesn't apply to non-Scala dependency: /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/Environment.java[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/parser/ast/Node.java...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/parser/ast/Node.java...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/parser/ast/Node.java)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/parser/ast/Node.java)[0m
+[0m[[0mdebug[0m] [0m[naha] The /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/parser/ast/Node.java source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	Node.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] Name hashing optimization doesn't apply to non-Scala dependency: /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/parser/ast/Node.java[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/Runner.java...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/Runner.java...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/Runner.java)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/Runner.java)[0m
+[0m[[0mdebug[0m] [0m[naha] The /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/Runner.java source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	notify, getFactory, createBindings, wait, getBindings, equals, NAME, FILENAME, setBindings, notifyAll, eval, <init>, LANGUAGE, ENGINE, Runner, ARGV, getContext, put, toString, get, getClass, ENGINE_VERSION, LANGUAGE_VERSION, hashCode, setContext.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] Name hashing optimization doesn't apply to non-Scala dependency: /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/Runner.java[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/parser/StringParseException.java...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/parser/StringParseException.java...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/parser/StringParseException.java)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/parser/StringParseException.java)[0m
+[0m[[0mdebug[0m] [0m[naha] The /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/parser/StringParseException.java source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	notify, printStackTrace, getLocalizedMessage, wait, equals, StringParseException, fillInStackTrace, initCause, getCause, notifyAll, getStackTrace, <init>, getMessage, setStackTrace, getSuppressed, addSuppressed, toString, getClass, hashCode.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] Name hashing optimization doesn't apply to non-Scala dependency: /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/parser/ParserHelper.java[0m
+[0m[[0mdebug[0m] [0m[naha] Name hashing optimization doesn't apply to non-Scala dependency: /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/parser/StringParseException.java[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/Environment.java...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/Environment.java...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/Environment.java)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/Environment.java)[0m
+[0m[[0mdebug[0m] [0m[naha] The /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/Environment.java source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	notify, getScopes, Environment, removeAttribute, wait, getBindings, setAttribute, equals, ENGINE_SCOPE, getErrorWriter, setBindings, GLOBAL_SCOPE, notifyAll, <init>, symbolList, setReader, getWriter, getAttribute, setErrorWriter, toString, getClass, getAttributesScope, getReader, hashCode, setWriter.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] Name hashing optimization doesn't apply to non-Scala dependency: /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/Environment.java[0m
+[0m[[0mdebug[0m] [0m[naha] Name hashing optimization doesn't apply to non-Scala dependency: /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/Runner.java[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/JType.java...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/JType.java...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/JType.java)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/JType.java)[0m
+[0m[[0mdebug[0m] [0m[naha] The /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/JType.java source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	notify, wait, equals, JType, notifyAll, <init>, Null, toString, getClass, hashCode.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] Name hashing optimization doesn't apply to non-Scala dependency: /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/JValue.java[0m
+[0m[[0mdebug[0m] [0m[naha] Name hashing optimization doesn't apply to non-Scala dependency: /home/glavo/IdeaProjects/Gisp/src/main/java/org/glavo/gisp/JType.java[0m
+[0m[[0mdebug[0m] [0m[naha] New invalidations:[0m
+[0m[[0mdebug[0m] [0m[naha] 	Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Previously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0mdebug[0m] [0m[naha] 	Set()[0m
+[0m[[0mdebug[0m] [0m[naha] All newly invalidated sources after taking into account (previously) recompiled sources:Set()[0m

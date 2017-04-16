@@ -13,7 +13,7 @@ public class SymbolList implements Bindings {
 
     @Override
     public Object put(String name, Object value) {
-        map.put(name, new JValue<>(value));
+        map.put(name, new Type.JValue<>(value));
         return value;
     }
 
