@@ -4,10 +4,12 @@ import java.io.IOException;
 import java.io.StringReader;
 import java.math.BigDecimal;
 import java.math.BigInteger;
-import jdk.nashorn.internal;
 
 /**
  * Created by glavo on 17-4-16.
+ *
+ * @author Glavo
+ * @since 1.0.0
  */
 public class ParserHelper {
     public static String parseString(String s) throws IOException, StringParseException {

@@ -1,9 +1,5 @@
 package org.glavo.gisp.parser.ast;
 
-import org.glavo.gisp.Environment;
-import org.glavo.gisp.Value;
-
-import java.util.ArrayList;
 import java.util.List;
 
 /**
