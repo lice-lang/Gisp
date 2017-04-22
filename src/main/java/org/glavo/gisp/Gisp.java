@@ -7,6 +7,8 @@ package org.glavo.gisp;
  * @since 1.0.0
  */
 public interface Gisp {
-    String EngineName = "Gisp Engine";
+    String EngineName = "Glavo Gisp";
     String EngineVersion = "1.0.0";
+    String LanguageName = "Gisp";
+    String LanguageVersion = "1.0.0";
 }
