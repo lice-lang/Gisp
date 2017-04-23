@@ -28,7 +28,7 @@ public class GispScriptEngineFactory implements ScriptEngineFactory, Gisp {
 
     @Override
     public List<String> getExtensions() {
-        return Collections.unmodifiableList(Arrays.asList(".gisp"));
+        return Collections.unmodifiableList(Collections.singletonList(".gisp"));
     }
 
     @Override
@@ -39,7 +39,7 @@ public class GispScriptEngineFactory implements ScriptEngineFactory, Gisp {
 
     @Override
     public List<String> getNames() {
-        return Collections.unmodifiableList(Arrays.asList("Gisp"));
+        return Collections.unmodifiableList(Collections.singletonList("Gisp"));
     }
 
     @Override
@@ -107,12 +107,12 @@ public class GispScriptEngineFactory implements ScriptEngineFactory, Gisp {
 
     @Override
     public String getMethodCallSyntax(String obj, String m, String... args) {
-        return null;
+        return "( ." + m + " " + obj + String.join(" ", args) + " )";
     }
 
     @Override
     public String getOutputStatement(String toDisplay) {
-        return null;
+        return "(print " + toDisplay + ")";
     }
 
     @Override
@@ -122,6 +122,6 @@ public class GispScriptEngineFactory implements ScriptEngineFactory, Gisp {
 
     @Override
     public ScriptEngine getScriptEngine() {
-        return null;
+        return new GispScriptEngine(); //TODO
     }
 }
