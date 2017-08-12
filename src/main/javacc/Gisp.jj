@@ -11,6 +11,10 @@ public class Parser {
     public Parser(String src) {
         this(new StringReader(src));
     }
+
+    public void ReInit(String src) {
+        ReInit(new StringReader(src));
+    }
 }
 
 PARSER_END(Parser)
