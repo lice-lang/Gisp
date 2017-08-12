@@ -1,0 +1,23 @@
+options {
+    UNICODE_INPUT = true;
+}
+
+PARSER_BEGIN(Parser)
+package org.galvo.gisp;
+
+import java.io.*;
+
+public class Parser {
+    public Parser(String src) {
+        this(new StringReader(src));
+    }
+}
+
+PARSER_END(Parser)
+
+SKIP : {
+    <[" ", "\n", "\t", "\r", ","]>
+}
+
+
+
