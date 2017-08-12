@@ -1,7 +1,82 @@
+group 'org.galvo'
+version '1.0-SNAPSHOT'
+
 apply plugin: 'java'
 
+sourceCompatibility = 1.8
 
-task wrapper(type: Wrapper) {
-    gradleVersion = '3.5'
+
+buildscript {
+
+    repositories {
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+
+        mavenCentral()
+    }
+    dependencies {
+        classpath "gradle.plugin.ca.coglinc2:javacc-gradle-plugin:3.0.0"
+
+ 
+
+    }
 }
 
+
+repositories {
+    mavenCentral()
+}
+apply plugin: "ca.coglinc2.javacc"
+
+apply plugin: 'scala'
+
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+
+    // https://mvnrepository.com/artifact/jline/jline
+    compile group: 'jline', name: 'jline', version: '2.14.5'
+
+    compile 'ch.obermuhlner:big-math:1.2.1'
+    
+    compile 'org.scala-lang:scala-library:2.12.3'
+}
+
+compileJavacc {
+    outputDirectory = file(project.buildDir.absolutePath + '/generated/javacc/org/glavo/gisp')
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'org.glavo.calculator.Main'
+    }
+
+    into ('/') from configurations.runtime
+}
+
+sourceSets {
+    main {
+        java {
+            srcDirs = ['src/main/java', 'build/generated/javacc']
+        }
+
+        scala {
+            //noinspection GroovyAssignabilityCheck
+            srcDirs = ['src/main/java', 'src/main/scala', 'build/generated/javacc']
+        }
+    }
+}
+
+compileKotlin.dependsOn(compileJavacc)
+
+//create a single Jar with all dependencies
+task fatJar(type: Jar) {
+    manifest {
+        attributes 'Main-Class': 'org.glavo.gisp.Main'
+    }
+
+    baseName = project.name + '-all'
+    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+    with jar
+}
